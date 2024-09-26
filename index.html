@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Blog</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <h1>Ahmed Blog</h1>
+    <nav class="nav-links">
+      <a class="active" href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+
+<main class="container mt-5">
+    <div class="row">
+      <!-- Blog Posts -->
+      <div class="home">
+        <h3>Welcome to <span>Ahmed</span> Blog</h3>
+        <p>Home Section</p>
+      </div>
+      <div class="services">
+        <h3><span>Services</span> Section</h3>
+        <div class="articles">
+          <article class="post">
+            <div class="card-body">
+            <h2 class="card-title">Frontend Designs </h2>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis consequuntur, tempora voluptatem in minima</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </article>
+        <article class="post">
+          <div class="card-body">
+            <h2 class="card-title">AI Apps</h2>
+            <p class="card-text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis consequuntur, tempora voluptatem in minima</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </article>
+        <article class="post">
+          <div class="card-body">
+            <h2 class="card-title">Android Apps</h2>
+            <p class="card-text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis consequuntur, tempora voluptatem in minima </p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- about -->
+      <section class="container">
+        <div class="about">
+          <h3><span>About</span> section</h3>
+          <p>About Section</p>
+        </div>
+      </section>
+      
+      <!-- contact -->
+       <section class="container">
+        <div class="contact">
+          <h3><span>Contact</span> Us</h3>
+          <form action="">
+            <label for="name">Name:</label>
+            <input type="text" name="" id="name">
+            <label for="email">Email:</label>
+            <input type="email" name="" id="email">
+            <label for="message">Message:</label>
+            <textarea name="message" id="message"></textarea>
+          </form>  
+        </div>
+        </section>
+    </div>
+  </main>
+
+  
+  <button id="backToTop" class="btn btn-secondary" title="Back to top">⬆️</button>
+
+ 
+  <footer class="footer bg-dark text-white text-center py-4">
+    <p>All Rights Reserved © 2024 | Designed by <span>Ahmed Magdy</span></p>
+    <form class="form-inline justify-content-center mt-3">
+      <input type="email" class="form-control mr-2" placeholder="Enter your email" aria-label="Enter your email">
+      <button type="submit" class="btn btn-primary">Subscribe</button>
+    </form>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
